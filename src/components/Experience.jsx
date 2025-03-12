@@ -67,10 +67,10 @@ const Experience = () => {
       {/* Animer le contenu dans motion.div */}
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          Notre savoir-faire
+          Notre histoire
         </p>
         <h2 className={styles.sectionHeadText}>
-          Découvrez nos différents projets
+          Découvrez l'histoire de FORSIM
         </h2>
       </motion.div>
 
@@ -91,4 +91,4 @@ const Experience = () => {
 }
 
 // On utilise notre composant haut-niveau
-export default SectionWrapper(Experience, 'work')
+export default SectionWrapper(Experience, '')
