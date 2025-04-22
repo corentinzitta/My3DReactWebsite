@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://corentinzitta.github.io/My3DReactWebsite/",
+  base: "/My3DReactWebsite/",
 })
