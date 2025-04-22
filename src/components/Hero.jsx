@@ -32,18 +32,18 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} 
             text-white`}
           >
-            Bienvenue chez
+            Corentin
             <span className='text-[#915eff]'>
-              &nbsp;FORSIM
+              &nbsp;ZITTA
             </span>
           </h1>
           {/* Description */}
           <p className={`${styles.heroSubText}
             mt-2 text-white-100`}
           >
-            Spécialisé depuis plus de 10 ans dans 
+            Ingénieur en développement
             <br className='sm:block hidden'/> 
-            le développement de simulateurs.
+            &nbsp;fullstack
           </p>
         </div>
       </div>

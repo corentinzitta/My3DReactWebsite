@@ -63,10 +63,14 @@ const About = () => {
         className='mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]'
       >
-        Spécialisée dans la création de simulateurs logiciels 
-        de formation à la conduite de systèmes complexes,
-        FORSIM accompagne également ses clients dans leur
-        transformation numérique blablabla... 
+        Passionné par le développement logiciel,
+        j&apos;ai finalisé mon Master en management des
+        systèmes d&apos;informations (SI) en 2024. J&apos;ai
+        eu l&apos;occasion, grâce à mon parcours par alternance,
+        de travailler pour différentes entreprises avec des contextes
+        métier différents : FORSIM, Logilec (Leclerc), Capgemini.
+        En parallèle de ces expériences, j&apos;aime apprendre de nouvelles
+        technologies par la pratique.
       </motion.p>
       
       {/* Création des cartes de présentation */}

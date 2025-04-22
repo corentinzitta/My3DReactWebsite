@@ -75,10 +75,10 @@ const Works = () => {
       {/* Animer le contenu dans motion.div */}
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          Notre savoir-faire
+          Mon savoir-faire
         </p>
         <h2 className={styles.sectionHeadText}>
-          Découvrez nos différents projets
+          Découvrez mes différents projets
         </h2>
       </motion.div>
 
@@ -88,10 +88,12 @@ const Works = () => {
           className="mt-3 text-secondary
           text-[17px] max-w-3xl leading-[30px]"
         >
-          Spécialisée dans la création de simulateurs 
-          logiciels de formation à la conduite de systèmes complexes, 
-          FORSIM accompagne également ses clients dans leur transformation 
-          numérique blablabla...
+          Au cours de mon parcours, que ce soit académique
+          ou professionnel, j&apos;ai énormément appris grace à la pratique.
+          C&apos;est pour cela que j&apos;accorde une grande importance aux projets
+          auxquels je prend part. Que ce soit pour répondre à un besoin métier 
+          ou simplement m&apos;éxercer à différentes technologies, j&apos;aime pratiquer.
+          Découvrez quelques uns de mes projets : 
         </motion.p>
       </div>
 

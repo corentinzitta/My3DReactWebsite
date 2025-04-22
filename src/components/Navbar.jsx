@@ -39,8 +39,8 @@ const Navbar = () => {
           <img src={ForsimLogo} alt='logo' className='w-9
           h-9 object-contain'/>
           <p className='text-white text-[18px] 
-          font-bold cursor-pointer flex'>FORSIM &nbsp;
-          <span className='sm:block hidden'> &nbsp; | Experts en logiciels de simulation</span></p>
+          font-bold cursor-pointer flex'>Corentin Zitta &nbsp;
+          <span className='sm:block hidden'> &nbsp; | Développeur logiciel fullstack</span></p>
         </Link>
         {/* Liste des éléments de section de navigation */}
         <ul className='list-none hidden sm:flex flex-row gap-10'>

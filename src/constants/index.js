@@ -8,21 +8,19 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+  python,
+  java,
+  c_sharp,
+  angular,
+  spring,
+  forsim,
+  leclerc,
+  capgemini,
+  demo_sig,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -32,29 +30,29 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Expérience",
+    title: "Expériences",
   },
   {
     id: "contact",
-    title: "Nous contacter",
+    title: "Me contacter",
   },
 ];
 
 const services = [
   {
-    title: "Développement VR",
+    title: "Développement Back End",
     icon: web,
   },
   {
-    title: "Fait d'excellentes pates carbonara",
+    title: "Développement Front End",
     icon: mobile,
   },
   {
-    title: "Assistance en ingénierie logicielle",
+    title: "Mentalité Craftmanship",
     icon: backend,
   },
   {
-    title: "Expertise métier",
+    title: "Collaboration en agilité",
     icon: creator,
   },
 ];
@@ -77,94 +75,83 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "React Framework",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Spring Framework",
+    icon: spring,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Angular Framework",
+    icon: angular,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "C#",
+    icon: c_sharp,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Développeur Framework .NET (C#)",
+    company_name: "FORSIM",
+    icon: forsim,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Avr. 2022 - Juin 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conception, développement, tests d’une application de sauvegarde optimisée.",
+      "Élaboration du cahier des charges.",
+      "Approche agile pour la gestion projet",
+      "Développements C# & Framework .NET, IHM développée avec le framework WPF",
+      "Utilisation de Git & GitLab.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Ingénieur DevOps",
+    company_name: "Logilec (Leclerc)",
+    icon: leclerc,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Déc. 2022 - Sept. 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Responsable du MCO du code de déploiement continu (Python, Gitlab-CI)",
+      "Accompagnement des utilisateurs à l'utilisation de la solution de déploiement continu",
+      "Refonte de la solution selon les bonnes pratiques de code en Python",
+      "Conception & développement d'une solution de sauvegarde automatisée en utilisant l'API gitlab",
+      "Mise en place de d’outils industrialisés (CI/CD : Seeburger, Talend)",
+      "Développement sur l'outil de data Talend (ETL)",
+      "Recueil du besoin métier",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Ingénieur développeur fullstack",
+    company_name: "Capgemini PER",
+    icon: capgemini,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sept. 2023 - Sept. 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conception & développement d’un démonstrateur (POC) d’application web SIG ",
+      "Front-end : Angular (TypeScript, HTML, CSS), OpenLayers",
+      "Back-end : Laravel (PHP)",
+      "Base de données : PostgreSQL",
+      "Protocole : API REST",
+      "Qualité : ESLint, Insomnia",
     ],
   },
 ];
@@ -198,24 +185,32 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SIG sur une architecture web",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Développement d'un POC pour un client du secteur ferroviaire. " +
+      "Cette application se reposait sur une architecture client léger web client-serveur. " +
+      "Le but ici étant de démontrer la faisabilité de la migration de plusieurs applicatifs " +
+      "de type client lourd (à maintenir sur chaque postes de travail) vers client léger " +
+      "étant plus simple d'assurer son MCO et son évolution.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Angular",
+        color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Laravel",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "OpenLayers",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GeoServer",
+        color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image: demo_sig,
     source_code_link: "https://github.com/",
   },
   {

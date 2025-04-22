@@ -67,10 +67,10 @@ const Experience = () => {
       {/* Animer le contenu dans motion.div */}
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          Notre histoire
+          mon parcours
         </p>
         <h2 className={styles.sectionHeadText}>
-          Découvrez l'histoire de FORSIM
+          Découvrez mon parcours
         </h2>
       </motion.div>
 
